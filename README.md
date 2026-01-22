@@ -49,7 +49,7 @@ ContextDo respeta tu privacidad:
 - Tus tareas se almacenan únicamente en tu dispositivo
 - La ubicación configurada solo se usa para consultar el clima (no se rastrea)
 
-📄 [Política de Privacidad completa](PRIVACY_POLICY.md)
+📄 [Política de Privacidad completa](https://isamorren.github.io/contextdo/PRIVACY_POLICY)
 
 ## Tecnología
 

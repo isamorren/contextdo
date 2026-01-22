@@ -92,9 +92,9 @@ El modal "Evaluar ahora" muestra:
 
 ### Pendiente antes de publicar
 
-1. **URL pública de privacidad**: Activar GitHub Pages para hostear PRIVACY_POLICY.md
-2. **Screenshots**: Capturas para la ficha de la tienda
-3. **Firma del APK**: Configurar keystore para release
+- [x] URL pública de privacidad: https://isamorren.github.io/contextdo/PRIVACY_POLICY
+- [ ] Screenshots: Capturas para la ficha de la tienda
+- [ ] Firma del APK: Configurar keystore para release
 
 ### FASE 2 - Mejoras de producto
 
@@ -128,6 +128,13 @@ El modal "Evaluar ahora" muestra:
 
 ---
 
+## Repositorio
+
+- **GitHub**: https://github.com/isamorren/contextdo
+- **Política de Privacidad**: https://isamorren.github.io/contextdo/PRIVACY_POLICY
+
+---
+
 ## Conclusión
 
-ContextDo está arquitectónicamente preparado para escalar. La separación de capas permite agregar features sin refactorizar. El siguiente paso es completar los assets visuales y publicar la primera versión en Play Store.
+ContextDo está arquitectónicamente preparado para escalar. La separación de capas permite agregar features sin refactorizar. El siguiente paso es generar screenshots y configurar la firma del APK para publicar en Play Store.
