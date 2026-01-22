@@ -90,11 +90,13 @@ El modal "Evaluar ahora" muestra:
 - [x] Splash screen con flutter_native_splash
 - [x] Política de privacidad (PRIVACY_POLICY.md)
 
-### Pendiente antes de publicar
+### Preparación para publicar (completados)
 
 - [x] URL pública de privacidad: https://isamorren.github.io/contextdo/PRIVACY_POLICY
-- [ ] Screenshots: Capturas para la ficha de la tienda
-- [ ] Firma del APK: Configurar keystore para release
+- [x] Screenshots: Capturas para la ficha de la tienda
+- [x] Firma del AAB: Keystore configurado para release
+- [x] AAB generado: `build/app/outputs/bundle/release/app-release.aab`
+- [x] Feature graphic: Banner 1024x500px para Play Store
 
 ### FASE 2 - Mejoras de producto
 
@@ -104,8 +106,13 @@ El modal "Evaluar ahora" muestra:
 | Refinar copy | ✅ Completado | Mensajes humanizados ("Hace un poco de frío" vs "Temperatura fuera de rango") |
 | Atenuar tareas no elegibles | ✅ Completado | Opacity 0.6 para tareas habilitadas pero no elegibles |
 | Header contextual | ✅ Completado | Mensaje "Ahora mismo no es el mejor momento" cuando no hay tareas elegibles |
-| Guardar `lastEligibleAt` | Pendiente | Registrar última vez que la tarea fue viable |
-| Base para notificaciones | Pendiente | Estructura `NotificationRule` sin activar |
+
+### Backlog - Mejoras futuras
+
+| Feature | Descripción |
+|---------|-------------|
+| Guardar `lastEligibleAt` | Registrar última vez que la tarea fue viable |
+| Base para notificaciones | Estructura `NotificationRule` sin activar |
 
 ---
 
@@ -137,4 +144,12 @@ El modal "Evaluar ahora" muestra:
 
 ## Conclusión
 
-ContextDo está arquitectónicamente preparado para escalar. La separación de capas permite agregar features sin refactorizar. El siguiente paso es generar screenshots y configurar la firma del APK para publicar en Play Store.
+ContextDo v0.1.0 está listo para publicación en Google Play Store. La app cuenta con:
+
+- Arquitectura Clean Architecture escalable
+- Motor de contexto funcional (clima + luz solar)
+- UX pulida con recomendaciones inteligentes y copy humanizado
+- Todos los assets requeridos (icono, splash, screenshots, feature graphic)
+- AAB firmado y listo para subir
+
+**Próximos pasos post-lanzamiento**: Monitorear feedback de usuarios, implementar notificaciones contextuales y añadir historial de elegibilidad.
