@@ -1,0 +1,64 @@
+name: contextdo
+description: "ContextDo: tareas inteligentes basadas en contexto (clima y luz)."
+publish_to: 'none'
+
+version: 0.1.0+1
+
+environment:
+  sdk: ^3.10.7
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # Arquitectura / navegación / estado
+  flutter_riverpod: ^2.6.1
+  go_router: ^14.8.0
+
+  # Red
+  dio: ^5.7.0
+
+  # Local storage
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+
+  # Utilidades
+  uuid: ^4.5.1
+  intl: ^0.20.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+  # Generación de adapters (Hive)
+  build_runner: ^2.4.13
+  hive_generator: ^2.0.1
+
+  # Assets de app
+  flutter_launcher_icons: ^0.14.3
+  flutter_native_splash: ^2.4.5
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon/app_icon.png"
+  adaptive_icon_background: "#FFFFFF"
+  adaptive_icon_foreground: "assets/icon/app_icon.png"
+
+flutter_native_splash:
+  color: "#FFFFFF"
+  image: "assets/icon/app_icon.png"
+  android_12:
+    color: "#FFFFFF"
+    icon_background_color: "#FFFFFF"
+    image: "assets/icon/app_icon.png"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/icon/
