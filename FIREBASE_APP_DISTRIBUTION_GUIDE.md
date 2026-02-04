@@ -251,9 +251,10 @@ Crea documentación en DEPLOYMENT.md que explique:
 - [x] Descargar `google-services.json`
 - [x] Crear Service Account con rol `Firebase App Distribution Admin`
 - [x] Descargar JSON de credenciales del Service Account
-- [x] Configurar GitHub Secrets (6 secrets):
+- [x] Configurar GitHub Secrets (7 secrets):
   - [x] `FIREBASE_APP_ID`
   - [x] `FIREBASE_SERVICE_ACCOUNT`
+  - [x] `GOOGLE_SERVICES_JSON` (base64 de google-services.json)
   - [x] `KEYSTORE_BASE64`
   - [x] `KEYSTORE_PASSWORD`
   - [x] `KEY_ALIAS`
