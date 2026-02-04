@@ -42,8 +42,8 @@ Esta guía explica cómo desplegar ContextDo a Firebase App Distribution para pr
 
 ```
 1. Checkout          → Descarga el código
-2. Setup Java 17     → Instala Java (requerido por Gradle)
-3. Setup Flutter     → Instala Flutter 3.32.0 stable
+2. Setup Java 21     → Instala Java (requerido por Gradle)
+3. Setup Flutter     → Instala Flutter 3.38.6 stable
 4. Get dependencies  → flutter pub get
 5. Decode Keystore   → Decodifica el keystore desde secrets
 6. Create key.props  → Crea key.properties desde secrets

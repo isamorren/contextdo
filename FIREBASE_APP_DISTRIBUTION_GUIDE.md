@@ -179,7 +179,7 @@ Secrets disponibles (ya configurados):
 - KEY_PASSWORD
 
 Características:
-- Usar Java 17
+- Usar Java 21
 - Usar Flutter stable
 - Cachear dependencias de Flutter y Gradle
 - Release notes automáticas basadas en commits

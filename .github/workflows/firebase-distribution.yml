@@ -14,8 +14,8 @@ on:
         default: 'Manual build triggered'
 
 env:
-  FLUTTER_VERSION: '3.32.0'
-  JAVA_VERSION: '17'
+  FLUTTER_VERSION: '3.38.6'
+  JAVA_VERSION: '21'
 
 jobs:
   build-and-deploy:
